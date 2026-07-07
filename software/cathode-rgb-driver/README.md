@@ -14,8 +14,10 @@ Below is the wiring map for connecting the DHT22 sensor to the microcontroller:
 | **GND** | Pin 2 (Longest Leg) | Common Ground (Cathode) connection |
 | **D1** | Pin 3 (Green Leg) | Controls the Green color channel |
 | **D2** | Pin 4 (Blue Leg) | Controls the Blue color channel |
+                    
 
-![XIAO ESP32S3 Pinmap](Documents/ESP32Pinout.png)                      
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/1a7a2d3f-d2a2-4290-a197-4a362c32d756" />
+
 ---
 
 ## 💻 Software Preparation
