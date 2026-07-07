@@ -11,8 +11,7 @@ The Seeed Studio XIAO ESP32S3 is a compact, high-performance development board b
 * **Wireless:** Integrated Wi-Fi 802.11 b/g/n and Bluetooth 5 (LE).
 * **Peripherals:** 14-bit High-resolution ADC, 12 capacitive touch sensors, USB-OTG, and versatile interfaces including GPIO, UART, I2C, SPI, and PWM.
 
-![Circuit Diagram](Documents
-/seeed-xiao-esp32s3-seeed-106593-1198025484_1000x.webp
+![Circuit Diagram](Documents/seeed-xiao-esp32s3-seeed-106593-1198025484_1000x.webp
 )
 
 ---
