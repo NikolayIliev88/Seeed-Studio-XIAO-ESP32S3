@@ -13,13 +13,13 @@ The Seeed Studio XIAO ESP32S3 is a compact, high-performance development board b
 
 ---
 
-## 🛠️ Components Needed
+## 🛠️ Components Needed For Xiao Cathode Rgb Driver
 
 | Component | Quantity | Description |
 | :--- | :---: | :--- |
 | **Seeed Studio XIAO ESP32S3** | 1 | Microcontroller (with pre-soldered pins) |
 | **RGB LED** | 1 | Common Cathode (4 pins) |
-| **220Ω Resistors** | 3 | Current limiting resistors for protection |
+| **200Ω Resistors** | 3 | Current limiting resistors for protection |
 | **Breadboard** | 1 | Standard half-size or full-size |
-| **Jumper Wires** | 4 | Male-to-Male hookup wires |
+| **Jumper Wires** | 2 | Male-to-Male hookup wires |
 | **USB-C Cable** | 1 | For power and programming |
