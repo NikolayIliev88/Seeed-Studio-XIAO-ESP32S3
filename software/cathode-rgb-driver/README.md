@@ -8,11 +8,12 @@ A structured hardware implementation featuring the Seeed Studio XIAO ESP32S3 mic
 
 Below is the wiring map for connecting the DHT22 sensor to the microcontroller:
 
-| Seeed Studio XIAO ESP32S3 | DHT22 Sensor |
-| :--- | :--- |
-| **3V3** | Vcc |
-| **D1 (GPIO 2)** | Data |
-| **GND** | GND |
+| Seeed Studio XIAO ESP32S3 | RGB LED Diode | Description |
+| :--- | :--- | :--- |
+| **D0** | Pin 1 (Red Leg) | Controls the Red color channel |
+| **GND** | Pin 2 (Longest Leg) | Common Ground (Cathode) connection |
+| **D1** | Pin 3 (Green Leg) | Controls the Green color channel |
+| **D2** | Pin 4 (Blue Leg) | Controls the Blue color channel |
 
 ---
 
