@@ -15,7 +15,7 @@ Below is the wiring map for connecting the DHT22 sensor to the microcontroller:
 | **D1** | Pin 3 (Green Leg) | Controls the Green color channel |
 | **D2** | Pin 4 (Blue Leg) | Controls the Blue color channel |
 
-![RGB LED Wiring Diagram](Documents/ESP32Pinout.png)                                        
+![RGB LED Wiring Diagram](Documents/seeed-studio-xiao-esp32s3-2.4ghz-wi-fi-and-ble-5.0-pinmap-600x600.jpg)                                        
 ---
 
 ## 💻 Software Preparation
