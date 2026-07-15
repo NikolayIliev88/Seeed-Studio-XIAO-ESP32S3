@@ -11,9 +11,9 @@ This project reads ambient temperature data from a **DS18B20 1-Wire temperature 
 
 | Component | Quantity | Description |
 | :--- | :---: | :--- |
-| **DS18B20 Sensor** | 1 | Digital temperature sensor (either TO-92 transistor style or waterproof probe style) |
+| **DS18B20** | 1 | Digital temperature sensor (either TO-92 transistor style or waterproof probe style) |
 | **WEA012864DLPP3 OLED** | 1 | Winstar 0.96" I2C OLED display (SSD1306 driver, 128x64 resolution) |
-| **4.7kΩ Resistor (Sensor)** | 1 | Pull-up resistor connected between the DS18B20 VDD and DQ (data) lines |
+| **RW25MF 4.7K (Sensor)** | 1 | Pull-up resistor connected between the DS18B20 VDD and DQ (data) lines |
 | **4.7kΩ or 10kΩ Resistors (Screen)** | 2 | Pull-up resistors for the I2C lines (SDA and SCL) to improve signal integrity and screen response times |
 | **Jumper Wires** | 9 | Male-to-Male or Male-to-Female hookup wires for breadboard connections |
 
