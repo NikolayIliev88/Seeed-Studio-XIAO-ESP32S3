@@ -8,11 +8,11 @@ A structured hardware implementation featuring the Seeed Studio XIAO ESP32S3 mic
 | Component | Quantity | Description |
 | :--- | :---: | :--- |
 | **Seeed Studio XIAO ESP32S3** | 1 | Microcontroller (with pre-soldered pins) |
-| **RGB LED** | 1 | Common Cathode (4 pins) |
-| **200Ω Resistors** | 3 | Current limiting resistors for protection |
+| **WP154A4SEJ3** | 1 | Common Cathode (4 pins) |
+| **RW25CF 200R** | 3 | Current limiting resistors for protection |
 | **Breadboard** | 1 | Standard half-size or full-size |
 | **Jumper Wires** | 2 | Male-to-Male hookup wires |
-| **USB-C Cable** | 1 | For power and programming |
+
 
 
 ## 🔌 Connections
