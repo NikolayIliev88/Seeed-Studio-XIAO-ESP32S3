@@ -38,10 +38,10 @@ This project reads ambient temperature data from a **DS18B20 1-Wire temperature 
 
 Before compiling the code, make sure you have installed the following libraries via your IDE's Library Manager:
 
-* **OneWire** (by Paul Stoffregen) — Manages the 1-Wire protocol for the DS18B20.                           https://github.com/PaulStoffregen/OneWire
-* **DallasTemperature** (by Miles Burton) — Translates raw sensor data into degrees.              https://github.com/dnrce/DallasTemperature
+* **OneWire** (by Paul Stoffregen) — Manages the 1-Wire protocol for the DS18B20.                               https://github.com/PaulStoffregen/OneWire
+* **DallasTemperature** (by Miles Burton) — Translates raw sensor data into degrees.                  https://github.com/dnrce/DallasTemperature
 * **Adafruit SSD1306** (by Adafruit) — Hardware driver for the WEA012864DLPP3 screen.                     https://github.com/adafruit/adafruit_ssd1306
-* **Adafruit GFX Library** (by Adafruit) — Handles the layout, text, and drawing shapes.     https://github.com/adafruit/Adafruit-gfx-library   
+* **Adafruit GFX Library** (by Adafruit) — Handles the layout, text, and drawing shapes.       https://github.com/adafruit/Adafruit-gfx-library   
 
 ---
 
