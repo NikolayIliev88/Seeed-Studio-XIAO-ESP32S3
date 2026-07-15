@@ -29,8 +29,8 @@ The DS18B20 uses a 1-Wire bus, which means it only needs one data pin.
 ## 🛠️ Required Libraries
 
 To run the code in this folder, you will need to install the following libraries in your IDE:
-1. **OneWire** (by Paul Stoffregen)
-2. **DallasTemperature** (by Miles Burton)
+1. **OneWire** (by Paul Stoffregen)    https://github.com/PaulStoffregen/OneWire
+2. **DallasTemperature** (by Miles Burton)  https://github.com/dnrce/DallasTemperature
 
 ---
 
