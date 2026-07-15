@@ -3,7 +3,8 @@
 This project reads ambient temperature data from a **DS18B20 1-Wire temperature sensor** and displays it in real-time (both Celsius and Fahrenheit) on a **Winstar WEA012864DLPP3 0.96" OLED display**.
 
 ---
-<img width="244" height="240" alt="image" src="https://github.com/user-attachments/assets/39294737-88bd-4add-83e6-3bcc04172e05" />
+
+<img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/e9711a4d-bcad-4be5-b772-74c2318b0915" />
 
 
 ## 🛠️ Components Needed For Real-Time Temperature Monitor
@@ -37,10 +38,10 @@ This project reads ambient temperature data from a **DS18B20 1-Wire temperature 
 
 Before compiling the code, make sure you have installed the following libraries via your IDE's Library Manager:
 
-* **OneWire** (by Paul Stoffregen) — Manages the 1-Wire protocol for the DS18B20.
-* **DallasTemperature** (by Miles Burton) — Translates raw sensor data into temperature readings.
-* **Adafruit SSD1306** (by Adafruit) — Hardware driver for the WEA012864DLPP3 screen.
-* **Adafruit GFX Library** (by Adafruit) — Handles the layout, text, and drawing shapes on the screen.
+* **OneWire** (by Paul Stoffregen) — Manages the 1-Wire protocol for the DS18B20.                         https://github.com/PaulStoffregen/OneWire
+* **DallasTemperature** (by Miles Burton) — Translates raw sensor data into temperature readings.         https://github.com/dnrce/DallasTemperature
+* **Adafruit SSD1306** (by Adafruit) — Hardware driver for the WEA012864DLPP3 screen.                     https://github.com/adafruit/adafruit_ssd1306
+* **Adafruit GFX Library** (by Adafruit) — Handles the layout, text, and drawing shapes on the screen.    https://github.com/adafruit/Adafruit-gfx-library   
 
 ---
 
