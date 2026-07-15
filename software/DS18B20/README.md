@@ -2,6 +2,8 @@
 
 This folder contains the code, libraries, and documentation for interfacing the **DS18B20 Digital Temperature Sensor** with my microcontroller.
 
+<img width="1395" height="1359" alt="image" src="https://github.com/user-attachments/assets/97f6c09a-13bb-4a77-9f54-450647dfb4de" />
+
 ## 📌 Sensor Overview
 * **Type:** 1-Wire digital temperature sensor
 * **Operating Voltage:** 3.0V to 5.5V
