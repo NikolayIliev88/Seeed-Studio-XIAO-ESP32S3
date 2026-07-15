@@ -12,7 +12,6 @@ An easy-to-use guide and implementation for interfacing the Microchip **MCP9701A
 | Component | Quantity | Description |
 | :--- | :--- | :--- |
 | **MCP9701A-E/TO Sensor** | 1 | Low-power active thermistor (TO-92-3 transistor style package) |
-| **0.1µF Ceramic Capacitor** | 1 | Bypass capacitor placed close to the sensor's power pins to filter analog noise |
 | **Microcontroller** | 1 | Arduino Uno, Nano, or any board with an Analog-to-Digital Converter (ADC) |
 | **Jumper Wires** | 3 | Male-to-Male or Male-to-Female hookup wires for breadboard connections |
 
