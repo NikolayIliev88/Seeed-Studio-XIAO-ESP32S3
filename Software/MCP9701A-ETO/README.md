@@ -47,4 +47,4 @@ $$V_{OUT} = (T_{C} \times T_{A}) + V_{0\text{C}}$$
 
 Where:
 * $T_{C}$ (Temperature Coefficient/Slope) = $19.53\text{ mV/°C}$ ($0.01953\text{ V/°C}$)
-* $V_{0\text{C}}$ (Voltage Offset at 0°C) = $400\text{ mV}$ ($0
+* $V_{0\text{C}}$ (Voltage Offset at 0°C) = $400\text{ mV}$ 
