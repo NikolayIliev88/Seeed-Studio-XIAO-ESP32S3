@@ -4,11 +4,13 @@ This folder contains the code, libraries, and documentation for interfacing the 
 
 <img width="1395" height="1359" alt="image" src="https://github.com/user-attachments/assets/97f6c09a-13bb-4a77-9f54-450647dfb4de" />
 
-## 📌 Sensor Overview
-* **Type:** 1-Wire digital temperature sensor
-* **Operating Voltage:** 3.0V to 5.5V
-* **Accuracy:** ±0.5°C (from -10°C to +85°C)
-* **Resolution:** 9 to 12-bit (user-selectable)
+## 🛠️ Components Needed For Real-Time Temperature Monitor
+
+| Component | Quantity | Description |
+| :--- | :---: | :--- |
+| **DS18B20** | 1 | Digital temperature sensor (either TO-92 transistor style or waterproof probe style) |
+| **RW25MF 4.7K (Sensor)** | 1 | Pull-up resistor connected between the DS18B20 VDD and DQ (data) lines |
+| **Jumper Wires** | 3 | Male-to-Male or Male-to-Female hookup wires for breadboard connections |
 
 ---
 
