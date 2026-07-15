@@ -1,0 +1,48 @@
+const int SENSOR_PIN = A0; 
+
+const float ADC_STEPS = 4095.0; 
+const float REF_VOLTAGE = 3.3; 
+
+const int READING_COUNT = 10;     // We want exactly 10 readings
+float temp_sum = 0.0;             // Sum of the temperatures
+int sample_counter = 0;           // Counter from 0 to 10
+
+void setup() {
+  Serial.begin(115200); 
+  analogReadResolution(12);
+  
+  while (!Serial) {
+    delay(10); 
+  }
+  Serial.println("--- SYSTEM STARTED SUCCESSFULLY  ---");
+}
+
+void loop() {
+  
+  int raw_adc = analogRead(SENSOR_PIN);
+  float voltage = raw_adc * (REF_VOLTAGE / ADC_STEPS);
+  float current_temp = (voltage - 0.4) / 0.01953;
+
+  temp_sum += current_temp;
+  sample_counter++;
+
+  //Serial.print("Sample taken: ");
+  Serial.print(sample_counter);
+  Serial.println("/10");
+
+  if (sample_counter == READING_COUNT) {
+    
+    float averaged_temp = temp_sum / READING_COUNT;
+
+    Serial.println("----------------------------------------");
+    Serial.print(">>> AVERAGED TEMP : ");
+    Serial.print(averaged_temp, 1);
+    Serial.println(" C <<<");
+    Serial.println("----------------------------------------");
+
+    temp_sum = 0.0;
+    sample_counter = 0;
+  }
+
+  delay(1000); 
+}
