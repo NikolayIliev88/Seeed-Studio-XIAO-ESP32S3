@@ -30,8 +30,7 @@ Looking at the **flat side** of the MCP9701A (with the text/markings facing you)
 
 ---
 
-> ⚠️ **CRITICAL WIRING NOTE:** For optimal reading stability, place a **0.1µF ceramic capacitor** directly between **Pin 1 ($V_{DD}$)** and **Pin 3 (GND)** as close to the physical sensor as possible. This suppresses high-frequency power supply noise which can cause erratic analog temperature jumps.
-
+> ⚠️Optional Recommendation: Adding a 0.1 µF ceramic capacitor between Pin 1 and Pin 3 (GND), positioned close to the sensor, can improve measurement stability by filtering high-frequency power supply noise. The sensor will function without this capacitor, but it may help produce more consistent analog temperature readings.
 ---
 
 ## 📚 Required Libraries
