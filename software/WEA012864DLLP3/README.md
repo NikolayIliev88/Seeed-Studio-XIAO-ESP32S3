@@ -6,21 +6,19 @@ This project reads ambient temperature data from a **DS18B20 1-Wire temperature 
 <img width="244" height="240" alt="image" src="https://github.com/user-attachments/assets/39294737-88bd-4add-83e6-3bcc04172e05" />
 
 
-## 🛠️ Hardware Requirements
+## 🛠️ Components Needed For Real-Time Temperature Monitor
 
-* **Microcontroller:** Arduino (Uno, Nano, Mega) or ESP32 / ESP8266
-* **Sensor:** DS18B20 Digital Temperature Sensor
-* **Resistor:** 4.7kΩ Pull-Up Resistor (required for the 1-Wire data line)
-* **Display:** WEA012864DLPP3 0.96" OLED Screen (SSD1306, I2C, 128x64 resolution)
-* **Other:** Breadboard and jumper wires
+| Component | Quantity | Description |
+| :--- | :---: | :--- |
+| **DS18B20 Sensor** | 1 | Digital temperature sensor (either TO-92 transistor style or waterproof probe style) |
+| **WEA012864DLPP3 OLED** | 1 | Winstar 0.96" I2C OLED display (SSD1306 driver, 128x64 resolution) |
+| **4.7kΩ Resistor (Sensor)** | 1 | Pull-up resistor connected between the DS18B20 VDD and DQ (data) lines |
+| **4.7kΩ or 10kΩ Resistors (Screen)** | 2 | Pull-up resistors for the I2C lines (SDA and SCL) to improve signal integrity and screen response times |
+| **Jumper Wires** | 9 | Male-to-Male or Male-to-Female hookup wires for breadboard connections |
 
 ---
 
-## 🔌 Wiring Diagram & Connections
-
-The DS18B20 (1-Wire protocol) and the OLED display (I2C protocol) are connected to the microcontroller simultaneously.
-
-### 1. Circuit Connections Table
+## 🔌 Wiring Connections
 
 | Component | Pin Name | Microcontroller Pin (e.g., Arduino Uno) | Connection Notes |
 | :--- | :--- | :--- | :--- |
@@ -29,9 +27,8 @@ The DS18B20 (1-Wire protocol) and the OLED display (I2C protocol) are connected 
 | **DS18B20** | VDD (Power)| 5V (or 3.3V) | Power supply |
 | **OLED** | GND | GND | Common ground |
 | **OLED** | VCC | 5V (or 3.3V) | Power supply |
-| **OLED** | SCL | **SCL (A5)** | I2C Clock Line |
-| **OLED** | SDA | **SDA (A4)** | I2C Data Line |
-
+| **OLED** | SCL | **SCL (A5)** | I2C Clock Line (Requires pull-up resistor to VCC) |
+| **OLED** | SDA | **SDA (A4)** | I2C Data Line (Requires pull-up resistor to VCC) |
 > ⚠️ **CRITICAL WIRING NOTE:** Place the **4.7kΩ resistor** between the DS18B20's **DQ (Data)** wire and the **VDD (Power)** wire. Without this pull-up resistor, the microcontroller will not detect the temperature sensor.
 
 ---
