@@ -3,6 +3,9 @@
 A structured hardware implementation featuring the Seeed Studio XIAO ESP32S3 microcontroller to interface with a common cathode RGB LED and a DHT22 environmental sensor.
 
 ---
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/765b933c-69ef-4ad5-99ea-25c8f52c24b7" />
+
+
 ## 🛠️ Components Needed For Xiao Cathode Rgb Driver
 
 | Component | Quantity | Description |
