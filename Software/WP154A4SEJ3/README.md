@@ -25,7 +25,7 @@ Below is the wiring map for connecting the DHT22 sensor to the microcontroller:
 | Seeed Studio XIAO ESP32S3 | RGB LED Diode | Description |
 | :--- | :--- | :--- |
 | **D0** | Pin 1 (Red Leg) | Controls the Red color channel |
-| **GND** | Pin 2 (Longest Leg) | Common Ground (Anode) connection |
+| **VCC/Power** | Pin 2 (Longest Leg) | Common Ground (Anode) connection |
 | **D1** | Pin 3 (Green Leg) | Controls the Green color channel |
 | **D2** | Pin 4 (Blue Leg) | Controls the Blue color channel |
                     
